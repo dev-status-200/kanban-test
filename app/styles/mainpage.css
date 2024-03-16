@@ -1,0 +1,33 @@
+.main-page{
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+        border-radius: 100px;
+    }
+    .dot-1{ background-color: #49C4E5; }
+    .dot-2{ background-color: #8471F2; }
+    .dot-3{ background-color: #67E2AE; }
+    .dot-4{ background-color: orange; }
+
+    .columns{
+        width: 300px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 18px;
+        color: grey;
+    }
+    .task{
+        width: 320px;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 10px 12px 5px -7px rgba(0,0,0,0.11);
+        -webkit-box-shadow: 10px 12px 5px -7px rgba(0,0,0,0.11);
+        -moz-box-shadow: 10px 12px 5px -7px rgba(0,0,0,0.11);
+    }
+}

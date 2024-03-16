@@ -1,0 +1,32 @@
+.task-styles{
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .title > h3 {
+        width: 75%;
+    }
+    .title > img {
+        cursor: pointer;
+    }
+
+    .task{
+        border-radius: 5px;
+        padding: 5px;
+        margin: 6px 0px;
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+        border: 1px solid rgba(161, 114, 114, 0);
+    }
+    .task:hover{
+        border: 1px solid rgb(193, 193, 193);
+    }
+
+    .subtasks{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+}

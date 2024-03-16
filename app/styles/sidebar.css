@@ -1,0 +1,54 @@
+.side-bar{
+    .bar-active{
+        transition-duration: 300ms;
+        color: white;
+        background-color: #635fc7;
+        margin-right: 30px;
+        padding: 10px 0px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-radius: 0px 35px 35px 0px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    
+    .bar{
+        transition-duration: 300ms;
+        color: grey;
+        margin-right: 40px;
+        padding: 10px 0px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-radius: 0px 35px 35px 0px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .bar:hover{
+        transition-duration: 200ms;
+        background-color: #5450c43a;
+    }
+
+    .create-board{
+        color: #635fc7;
+        margin-right: 40px;
+        padding: 10px 0px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-radius: 0px 35px 35px 0px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 12px;
+    }
+}
